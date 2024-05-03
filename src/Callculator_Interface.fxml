@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="324.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Callculator_Interface_Controller">
+   <children>
+      <TextArea fx:id="ta1" layoutX="22.0" layoutY="31.0" prefHeight="49.0" prefWidth="280.0" stylesheets="@Style.css" text="OFF">
+         <font>
+            <Font name="Arial Narrow Bold" size="17.0" />
+         </font></TextArea>
+      <Button fx:id="persentage" layoutX="26.0" layoutY="313.0" mnemonicParsing="false" onAction="#persentageButtIsClicked" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="\%">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="Cbutt" layoutX="94.0" layoutY="99.0" mnemonicParsing="false" onAction="#CbuttISPressed" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="C">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="X2" layoutX="169.0" layoutY="99.0" mnemonicParsing="false" onAction="#xpower2ButtISPressed" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="X^2">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="Dbutt" layoutX="241.0" layoutY="98.0" mnemonicParsing="false" onAction="#DbuttIsPressed" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="D">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="butt1" layoutX="24.0" layoutY="153.0" mnemonicParsing="false" onAction="#butt1IsPressed" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="1">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="butt3" layoutX="168.0" layoutY="152.0" mnemonicParsing="false" onAction="#butt3IsPressed" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="3">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="butt2" layoutX="94.0" layoutY="153.0" mnemonicParsing="false" onAction="#butt2IsPressed" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="2">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="plusButt" layoutX="242.0" layoutY="152.0" mnemonicParsing="false" onAction="#plusButtIsPressed" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="+">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="minusButt" layoutX="241.0" layoutY="206.0" mnemonicParsing="false" onAction="#minusButtIsClicked" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="-">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="multiplicstion" layoutX="241.0" layoutY="258.0" mnemonicParsing="false" onAction="#multiplicstionButtIsClicked" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="X">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="division" layoutX="245.0" layoutY="312.0" mnemonicParsing="false" onAction="#divisionButtIsClicked" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="/">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="dot" layoutX="171.0" layoutY="312.0" mnemonicParsing="false" onAction="#dotButtIsClicked" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text=".">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="butt9" layoutX="169.0" layoutY="258.0" mnemonicParsing="false" onAction="#butt9IsClicked" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="9">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="butt6" layoutX="167.0" layoutY="206.0" mnemonicParsing="false" onAction="#butt6IsClicked" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="6">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="butt5" layoutX="96.0" layoutY="207.0" mnemonicParsing="false" onAction="#butt5IsClicked" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="5">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="butt8" layoutX="96.0" layoutY="258.0" mnemonicParsing="false" onAction="#butt8IsClicked" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="8">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="zeroButt" layoutX="98.0" layoutY="313.0" mnemonicParsing="false" onAction="#zeroButtIsClicked" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="0">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="butt7" layoutX="25.0" layoutY="259.0" mnemonicParsing="false" onAction="#butt7IsClicked" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="7">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="butt4" layoutX="25.0" layoutY="209.0" mnemonicParsing="false" onAction="#butt4IsClicked" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="4">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="equalButt" layoutX="118.0" layoutY="366.0" mnemonicParsing="false" onAction="#equallButtIsClicked" prefHeight="38.0" prefWidth="87.0" stylesheets="@Style.css" text="=" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font></Button>
+      <Button fx:id="OnOffbutt" layoutX="23.0" layoutY="99.0" mnemonicParsing="false" onAction="#OnOffbuttIsPressed" prefHeight="38.0" prefWidth="65.0" stylesheets="@Style.css" text="ON/OF">
+         <font>
+            <Font size="13.0" />
+         </font></Button>
+      <Label fx:id="l1" layoutX="18.0" layoutY="3.0" prefHeight="27.0" prefWidth="280.0" textFill="RED">
+         <font>
+            <Font name="Arial Narrow Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="opreationlable" layoutX="221.0" layoutY="36.0" prefHeight="40.0" prefWidth="58.0" textFill="RED">
+         <font>
+            <Font name="Arial Narrow Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="FN" layoutX="30.0" layoutY="62.0">
+         <font>
+            <Font name="Arial Narrow Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
